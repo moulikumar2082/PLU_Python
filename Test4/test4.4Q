@@ -1,0 +1,18 @@
+CREATE TABLE Customer (
+    CustomerID INT,
+    CustomerName VARCHAR(100),
+    City VARCHAR(50),
+    Mobile VARCHAR(15),
+    PRIMARY KEY (CustomerID)
+);
+
+
+why Primary Keys are important?
+
+1.Uniquely identifies each record in the table.
+
+2.Does not allow duplicate values, ensuring data uniqueness.
+
+3.Cannot contain NULL values, so every record has a valid identifier.
+
+4.Maintains data integrity by preventing duplicate or missing records.

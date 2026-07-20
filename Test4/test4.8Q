@@ -1,0 +1,13 @@
+CREATE TABLE Orders (
+    OrderID INT,
+    CustomerName VARCHAR(100),
+    OrderDate DATE,
+    Amount DECIMAL(10,2)
+);
+
+
+CREATE INDEX idx_OrderID
+ON Orders (OrderID);
+
+
+2.An index improves the speed of searching and retrieving data from a table. It allows the database to find records quickly, reducing query execution time.
